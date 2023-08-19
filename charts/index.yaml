@@ -3,7 +3,7 @@ entries:
   chat-api:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-19T21:50:57.0099411+02:00"
+    created: "2023-08-19T21:55:16.0202946+02:00"
     dependencies:
     - name: mongo-db
       repository: https://reactspar.github.io/artifactory
@@ -18,10 +18,21 @@ entries:
     urls:
     - chat-api-0.1.2.tgz
     version: 0.1.2
+  chat-ui:
+  - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2023-08-19T21:55:16.0212951+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 52c1627a6fbc273759d36f6389bb353945405540ad5d0764a48d776c484396cb
+    name: chat-ui
+    type: application
+    urls:
+    - chat-ui-0.1.4.tgz
+    version: 0.1.4
   kafka:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-19T21:50:57.0105152+02:00"
+    created: "2023-08-19T21:55:16.0212951+02:00"
     dependencies:
     - name: zookeeper
       repository: https://reactspar.github.io/artifactory
@@ -36,7 +47,7 @@ entries:
   mongo-db:
   - apiVersion: v2
     appVersion: "4.2"
-    created: "2023-08-19T21:50:57.0110887+02:00"
+    created: "2023-08-19T21:55:16.0222945+02:00"
     description: A Helm chart for Kubernetes
     digest: 29afd060d97de7bb17b73000d3a7f31e4d523cc3df0b999eeb96abe613d9b095
     name: mongo-db
@@ -47,7 +58,7 @@ entries:
   schema-registry:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-19T21:50:57.0117087+02:00"
+    created: "2023-08-19T21:55:16.0222945+02:00"
     dependencies:
     - name: kafka
       repository: https://reactspar.github.io/artifactory
@@ -62,7 +73,7 @@ entries:
   zookeeper:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-19T21:50:57.0122861+02:00"
+    created: "2023-08-19T21:55:16.0232942+02:00"
     description: A Helm chart for Kubernetes
     digest: be80a6d180ef5447f7001c7b549a469d73a1ebb4a9cb1907b4bf00e4b7e6748f
     name: zookeeper
@@ -70,4 +81,4 @@ entries:
     urls:
     - zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-19T21:50:57.0081827+02:00"
+generated: "2023-08-19T21:55:16.0192945+02:00"
