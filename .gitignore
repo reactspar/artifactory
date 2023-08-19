@@ -1,0 +1,8 @@
+/chat-api/charts
+/chat-ui/charts
+/kafka/charts
+/mongo-db/charts
+/schema-registry/charts
+/zookeeper/charts
+Chart.lock
+
