@@ -27,4 +27,4 @@ appVersion: "latest"
 dependencies:
   - name: zookeeper
     version: "0.1.0"
-    repository: "http://localhost:8087"
+    repository: "https://reactspar.github.io/artifactory"

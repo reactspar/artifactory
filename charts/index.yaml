@@ -1,9 +1,35 @@
 apiVersion: v1
 entries:
+  kafka:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-08-19T21:32:29.284034+02:00"
+    dependencies:
+    - name: zookeeper
+      repository: https://reactspar.github.io/artifactory
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 19b4afdbc4d2325653021798f05f6e54b9f0ad14d5c0bd5493c01dd12f1c5af1
+    name: kafka
+    type: application
+    urls:
+    - kafka-0.1.0.tgz
+    version: 0.1.0
+  mongo-db:
+  - apiVersion: v2
+    appVersion: "4.2"
+    created: "2023-08-19T21:32:29.2845743+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 29afd060d97de7bb17b73000d3a7f31e4d523cc3df0b999eeb96abe613d9b095
+    name: mongo-db
+    type: application
+    urls:
+    - mongo-db-0.1.0.tgz
+    version: 0.1.0
   zookeeper:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-19T21:24:29.3768334+02:00"
+    created: "2023-08-19T21:32:29.2851217+02:00"
     description: A Helm chart for Kubernetes
     digest: be80a6d180ef5447f7001c7b549a469d73a1ebb4a9cb1907b4bf00e4b7e6748f
     name: zookeeper
@@ -11,4 +37,4 @@ entries:
     urls:
     - zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-19T21:24:29.3762378+02:00"
+generated: "2023-08-19T21:32:29.2829821+02:00"
