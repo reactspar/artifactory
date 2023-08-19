@@ -1,6 +1,0 @@
-dependencies:
-- name: chat-api
-  repository: oci://us-central1-docker.pkg.dev/academic-matter-387515/reactspar
-  version: 0.1.2
-digest: sha256:7dcbd454b81770f361a4ba1506ec15276b2c9b6ab7c58ccd71b70c4bb1ee38a8
-generated: "2023-07-11T17:26:06.8744565+02:00"
