@@ -26,7 +26,7 @@ appVersion: "1.0.1"
 dependencies:
   - name: mongo-db
     version: "0.1.0"
-    repository: "oci://us-central1-docker.pkg.dev/academic-matter-387515/reactspar"
+    repository: "https://reactspar.github.io/artifactory"
   - name: schema-registry
     version: "0.1.0"
-    repository: "oci://us-central1-docker.pkg.dev/academic-matter-387515/reactspar"
+    repository: "https://reactspar.github.io/artifactory"
